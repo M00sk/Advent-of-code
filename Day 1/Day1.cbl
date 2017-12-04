@@ -25,7 +25,6 @@
            05 inp-field-13                               pic x(255).
            05 inp-field-14                               pic x(255).
            05 inp-field-15                               pic x(255).
-
        01 sz-x2                                          pic x(2).
        01 sz-x2-2                                        pic x(2).
        01 sz-92                                          pic 9(2).
@@ -36,9 +35,6 @@
        01 i                                              pic 9999.
        01 ans                                            pic 9(8).
        01 ans-x                                          pic x(68).
-
-
-
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
       *-----------------------------------------------------------------
@@ -63,10 +59,8 @@
              if sz-x-2 = space
                move inp-field(1:1) to sz-x-2
              end-if
-
              if sz-x-1 = sz-x-2
                move sz-x-1            to sz-9
-
                compute ans = ans + sz-9
              end-if
            add 1 to i

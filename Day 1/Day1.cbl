@@ -53,7 +53,7 @@
        DECODE-CAPTCHA section.
          move inp-field(1:2) to sz-x2
          move 1 to i
-         perform until (sz-x2 = spaces) OR (i = 3000)
+         perform until sz-x2 = spaces
              move sz-x2(1:1)      to sz-x-1
              move sz-x2(2:1)      to sz-x-2
              if sz-x-2 = space

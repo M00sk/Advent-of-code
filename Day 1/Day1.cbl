@@ -9,8 +9,8 @@
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-       01 inp-field.
-           05 inp-field-1                                pic x(255).
+       01 inp-field. *>openCOBOL sucks
+           05 inp-field-1                                pic x(255). 
            05 inp-field-2                                pic x(255).
            05 inp-field-3                                pic x(255).
            05 inp-field-4                                pic x(255).

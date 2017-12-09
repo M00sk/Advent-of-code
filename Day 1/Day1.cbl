@@ -25,16 +25,19 @@
            05 inp-field-13                               pic x(255).
            05 inp-field-14                               pic x(255).
            05 inp-field-15                               pic x(255).
-       01 sz-x2                                          pic x(2).
-       01 sz-x2-2                                        pic x(2).
-       01 sz-92                                          pic 9(2).
-       01 sz-9                                           pic 9.
-       01 sz-x                                           pic x.
-       01 sz-x-1                                         pic x.
-       01 sz-x-2                                         pic x.
-       01 i                                              pic 9999.
-       01 ans                                            pic 9(8).
-       01 ans-x                                          pic x(68).
+       01 szablony.
+           05 sz-x                                       pic x.
+           05 sz-x-1                                     pic x.
+           05 sz-x-2                                     pic x.
+           05 sz-x2                                      pic x(2).
+           05 sz-x2-2                                    pic x(2).
+           05 sz-92                                      pic 9(2).
+           05 sz-9                                       pic 9.
+           05 i                                          pic 9999.
+           05 j                                          pic 9999.
+           05 k                                          pic 9999.
+           05 ans                                        pic 9(8).
+           05 ans-x                                      pic x(68).
        PROCEDURE DIVISION.
        MAIN-PROCEDURE.
       *-----------------------------------------------------------------
